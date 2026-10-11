@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- set favicon from ./images/logo-1.svg -->
+    <link rel="icon" type="image/svg+xml" href="./images/logo-1.svg">
+
+    <title>EasyIn App</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        color: #222;
+      }
+
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        margin: 0 0 20px;
+        text-align: center;
+        font-size: 2.5rem;
+        color: #0f4c81;
+      }
+
+      .cover {
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+        display: block;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      .content-row {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 30px;
+        background: #fff;
+        padding: 24px;
+        border-radius: 12px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      }
+
+
+      .content {
+        /* display: flex; */
+        /* align-items: center; */
+        /* gap: 30px; */
+        margin-top: 30px;
+        background: #fff;
+        padding: 24px;
+        border-radius: 12px;
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      }
+
+
+      .text-column {
+        flex: 1.3;
+      }
+
+      .image-column {
+        flex: 1;
+      }
+
+      .image-column img {
+        width: 100%;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      p {
+        margin: 0;
+        line-height: 1.7;
+        font-size: 1.05rem;
+      }
+
+      .og-logo:hover {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>EasyIn</h1>
+
+      <img
+        class="cover"
+        src="./images/easyin-cover.png"
+        alt="EasyIn Cover Image"
+      />
+
+      <div class="content-row">
+        <div class="text-column">
+          <p>
+            <b>Easy-In Application</b><br />
+            Easy-In is a robust mobile application for the end-user with a friendly interface 
+            and backed Control Panel, it is also secure, convenient & easy way to control 
+            and manage your facility access for residents and visitors.<br /><br />
+
+            <b>Easy-In has 5 modules:</b>
+            <ul>
+                <li>Gate Access.</li>
+                <li>Social Community.</li>
+                <li>Facility Management.</li>
+                <li>Online Payment.</li>
+                <li>Explore.</li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="image-column">
+          <img
+            src="./images/easyin-features.png"
+            alt="EasyIn Features Image"
+          />
+        </div>
+      </div>
+
+      <div class="content"> 
+        <h1>Child Safety Standards for Easy In</h1>
+        <b>Developer:</b> <a href="https://ogtech.com/" target="_blank" style="text-decoration: none;">OGTech</a><br>
+        <b>App:</b> Easy In<br><br>
+        At OGTech, protecting safety and preventing child exploitation is a top priority. 
+        Easy In strictly prohibits Child Sexual Abuse Material (CSAM) and Child Sexual 
+        Abuse and Exploitation (CSAE) of any kind.
+        <br><br>
+        Users can report violations directly in-app or by contacting our safety team. 
+        We actively moderate content, remove non-compliant material immediately, 
+        and report illegal activities to relevant law enforcement agencies and national 
+        authorities (such as NCMEC).
+      </div>
+
+
+      <div style="display: flex; justify-content: center; padding-top: 30px;">
+        <a href="https://ogtech.com/" target="_blank">
+          <img class="og-logo" src="./images/logo-1.svg" width="200px" height="100px" />
+        </a>
+      </div>
+
+    </div>
+  </body>
+</html>
